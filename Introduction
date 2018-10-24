@@ -1,0 +1,46 @@
+-> The client is connected to server via sockets.
+
+-> The number of sockets depends upon the number of clients that we have
+
+-> No. of sockets on the server side depends on the No. of clients that we have.
+
+Who is responsible to create the sockets?
+
+The server socket is responsible to create the sockets for the client.
+
+Everytime the client sends the request to the server, server creates a server socket inside the server
+
+What do we need to connect with the server?
+
+We require two things to connect with the server
+
+1. IP address (Every machine will have a unique IP address)
+2. Port Number (To know on which port the application should run)
+
+Application              Port Number
+Tomcat                      8080
+My Sql                      3306
+Skype                       8000
+
+Socket Client:
+
+Port Number: In your server, multiple processes will be running in order to target a particular process, port number is used.
+
+The port numbers range from 0 to 65535
+Reserved port numbers: 0-1023
+
+Once the connection is established with the server, communication happens and the data transfer as well.
+
+
+The socket will have input port and output port. When the data is sent, it has to be sent to the output port of the socket.
+
+The data has to be converted to stream format.
+
+OutputStreamWriter, PrintWriter are the two methods that can be used to send the data.
+
+
+
+
+
+
+
