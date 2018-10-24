@@ -38,7 +38,28 @@ The data has to be converted to stream format.
 
 OutputStreamWriter, PrintWriter are the two methods that can be used to send the data.
 
+Socket Server:
 
+1. Create the server socket object.
+2. Pass in the client side port number into it.
+3. There are chances that the input port number may be busy so we have to handle the exceptions.
+
+4. Whenever the client sends a request a server socket has to be created.
+
+
+How do my server know that the request is being sent?
+
+If the server socket is accepting any request, it will create a socket object.
+
+As soon as the request is received from the client a new socket is created.
+
+Once the request is made from the client side, we need to fetch the data.
+
+How to fetch the data?
+
+The data can be fetched by using the buffered reader.
+
+Buffered reader method is used and the data is accepted using the input stream reader
 
 
 
