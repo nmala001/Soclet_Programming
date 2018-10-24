@@ -59,7 +59,20 @@ How to fetch the data?
 
 The data can be fetched by using the buffered reader.
 
+Buffered reader is used to read the data from a socket.
+
+In buffered reader we need to pass the object of the input stream reader.
+
+Inside the input stream reader we need to pass the socket input stream.
+
+By using br.readline() method we can get the data.
+
 Buffered reader method is used and the data is accepted using the input stream reader
+
+
+How to establish a two way communication?
+
+
 
 
 
